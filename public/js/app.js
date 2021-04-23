@@ -16,7 +16,7 @@ weatherform.addEventListener('submit',(e)=>{
             messageOne.textContent = data.Error;
         }else{
             messageOne.textContent = 'Place : '+data.Place;
-            messageTwo.textContent ='Forecst : '+data.forecast;
+            messageTwo.textContent ='Forecst : '+data.forecast+'. Humidity is '+data.humidity;
         }
     })
 })
